@@ -1,0 +1,6 @@
+<h2>Demo form: SKU with builder</h2>
+<form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm.value)">
+  <label>SKU</label>
+  <input type="text" formControlName="sku" />
+  <button type="submit">Submit</button>
+</form>
